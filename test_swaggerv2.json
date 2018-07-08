@@ -1,0 +1,67 @@
+{
+  "swagger" : "3.0.0",
+  "info" : {
+    "title" : "swagger_testv2",
+    "description" : "Testing of swagger process",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:3000"
+  } ],
+  "paths" : {
+    "/posts" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/comments" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/profile" : {
+      "get" : {
+        "description" : "Auto generated using Swagger Inspector",
+        "responses" : {
+          "200" : {
+            "description" : "Auto generated using Swagger Inspector",
+            "content" : {
+              "application/json; charset=utf-8" : {
+                "schema" : {
+                  "type" : "string"
+                },
+                "examples" : { }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
